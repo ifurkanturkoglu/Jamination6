@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 public class UIController : MonoBehaviour
 {
-    [SerializeField] RectTransform openObject,closeObject;
-    [SerializeField]public InputField passwordInput;
+    public static UIController Instance;
+    [SerializeField]public InputField passwordInput,searchInput;
+    RectTransform currentObject;
     float timer;
     void Start()
     {
-        StartCoroutine(OpenCloseUIObject(openObject,closeObject));
-        print(Data.Instance.transitions[0].key);
+        Instance = this;
     }
 
     
@@ -19,8 +19,32 @@ public class UIController : MonoBehaviour
         
     }
 
-
-    
+    public void PasswordCheck(){
+        if(passwordInput.text.Equals(Data.Instance.password)){
+            StartCoroutine(OpenCloseUIObject(Data.Instance.mainScreen,Data.Instance.loginScreen));
+        }
+        else{
+            print("Hatalı giriş.");
+        }
+    }
+    public void OpenBrowser(){
+        StartCoroutine(OpenCloseUIObject(Data.Instance.browser,Data.Instance.mainScreen));
+    }
+    public void CloseBrowser(){
+        StartCoroutine(OpenCloseUIObject(Data.Instance.mainScreen,Data.Instance.browser));
+    }
+    public void BrowserReturnMainPage(){
+        if(currentObject != null){
+            StartCoroutine(OpenCloseUIObject(searchInput.GetComponent<RectTransform>(),currentObject));
+        };        
+    }
+    public void OpenWebsite(){
+        StartCoroutine(OpenCloseUIObject(Data.Instance.SearchBrowserWebsite(),searchInput.GetComponent<RectTransform>()));
+        currentObject = Data.Instance.SearchBrowserWebsite();
+    }
+    public string SearchingWords(){
+        return searchInput.text;
+    }
     IEnumerator OpenCloseUIObject(RectTransform openObject,RectTransform closeObject){
         while(timer <=1){
             Vector3 timePosOpen = new Vector3(Time.deltaTime,Time.deltaTime, Time.deltaTime);
