@@ -14,6 +14,11 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        Movement();
+    }
+
+    private void Movement()
+    {
         float verticalInput = Input.GetAxis("Vertical");
         Vector3 moveForward = transform.forward * verticalInput * moveSpeed;
 
