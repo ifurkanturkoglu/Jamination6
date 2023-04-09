@@ -13,10 +13,6 @@ public class FlipPage : MonoBehaviour
     {
         ShowPages(0, 1);
     }
-    private void Update()
-    {
-        print(currentPage);
-    }
     public void ShowNextPages()
     {
         if (currentPage == pages.Length - 2)
