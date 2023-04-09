@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028346, g: 0.22571373, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3279,10 +3279,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Bugun okula giderken yine o adami gordum. Daha once de birkac kez gordum,
-    ama bugun beni gercekten rahatsiz etti. Uzerimde surekli gozleri vardi ve birkac
-    kez yan\u0131mdan gecerken sinsi bir sekilde gulumsedi. Kim oldugunu bilmiyorum
-    ama gercekten urkutucu."
+  m_text: Bugun cok yogun bir gun gecirdim. Sabah erken kalktim ve spor salonuna
+    gittim. Egzersiz yaptiktan sonra eve dondum ve kahvalti yaptim. Ardindan okula
+    gitmek icin hazirlandim. Tum gun derslerim vardi ve odevlerimi tamamlamak <color=icin
+    </color> kutuphanede kaldim. Aksam yemegi icin arkadaslarimla bulustum ve sonra
+    eve dondum. Bugun yorgunum ama mutluyum, cunku bir cok seyi tamamladim.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 454deb89da585bc4dab799d16c4a74cb, type: 2}
   m_sharedMaterial: {fileID: 9186881846963130187, guid: 454deb89da585bc4dab799d16c4a74cb,
@@ -5225,8 +5226,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 867.27295, y: 427.96408}
-  m_SizeDelta: {x: 45.654, y: 44.424}
+  m_AnchoredPosition: {x: 872.76605, y: 359}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &458624720
 MonoBehaviour:
@@ -15794,7 +15795,7 @@ RectTransform:
   m_GameObject: {fileID: 1417061695}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1966158859}
@@ -20152,14 +20153,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840875780}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.97, y: 7.742, z: 13.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.99997, z: -0, w: 0.007743094}
+  m_LocalPosition: {x: -9.1386, y: 7.301, z: 13.7}
+  m_LocalScale: {x: 0.6678, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 405592957}
   m_RootOrder: 40
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -179.113, z: 0}
 --- !u!65 &1840875782
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20171,8 +20172,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.7528263, y: 12.3261595, z: 1.6954126}
+  m_Center: {x: 0.07074245, y: 5.6630764, z: -0.042932745}
 --- !u!23 &1840875783
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20193,7 +20194,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 214df684f5f1b224285bdb5ddbea4b21, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23751,7 +23752,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 1849, y: -0.00045585}
+  m_AnchoredPosition: {x: 1805, y: -0.00045585}
   m_SizeDelta: {x: 70, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2073660218
