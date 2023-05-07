@@ -181,8 +181,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hareket => W,A,S,D\nEtkile\u015Fim => F\n\nDedektif kay\u0131p olan k\u0131z\u0131
-    bulmak i\xE7in ipu\xE7lar\u0131ndan yola \xE7\u0131k\u0131p \u015Fupheliyi bulmal\u0131d\u0131r."
+  m_text: "Hareket => W,A,S,D\nEtkile\u015Fim => F\n\n\n\nDedektif kay\u0131p olan
+    k\u0131z\u0131 bulmak i\xE7in ipu\xE7lar\u0131ndan yola \xE7\u0131k\u0131p \u015Fupheliyi
+    bulmal\u0131d\u0131r. Bilgisayar ve g\xFCnl\xFCg\xFC kullanarak gizemi cozmeye
+    cal\u0131s\u0131n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b05851aefd4de374da064766b4ce29cc, type: 2}
   m_sharedMaterial: {fileID: 415928496303595836, guid: b05851aefd4de374da064766b4ce29cc,
@@ -216,7 +218,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
